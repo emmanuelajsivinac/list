@@ -1,0 +1,115 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+.main-Container-Setting{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    /*padding-bottom: 8%;*/
+}
+
+.form-Login-Setting{
+    border-radius: 5px; 
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    border: 0.5px solid #8458B3;
+    /*font*/
+    font-style: normal;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 400;
+    color: #494D5F;
+    background-color: #ffffff;
+}
+
+.logo-Form{
+    align-items: center;
+    text-align: center;
+    margin-bottom: 10%;
+}
+
+.logo-Form img{
+    width: 115px;
+    height: auto;
+    margin-right: 0px;
+}
+
+.title-Form{
+    text-align: center;
+    font-weight: 400;
+    font-size: 150%;
+    margin-bottom: 5%;
+}
+
+.form-Login-Setting input{
+    margin-bottom: 20px;
+    width: 300px;
+    height: 30px;
+    margin-top: 5px;
+    font-weight: 425;
+    font-style: normal;
+    font-family: 'DM Sans', sans-serif;
+}
+
+input {
+    padding-left: 8px;
+    padding-bottom: 4px;
+    padding-top: 4px;
+    border: 1.5px solid #D0BDF4;
+    border-radius: 3.5px;
+    font-size: 16px;
+    color: #494D5F;
+}
+
+input:focus {
+    outline: none;
+    border-color: #E5EAF5;
+}
+
+.form-Login-Setting label{
+    width: 300px;
+    height: 30px;
+    text-align: left;
+    color: #595959;
+    font-size: 110;
+    font-weight: 350;
+}
+
+.form-Login-Setting button{
+    background-color: #8458B3;
+    color: #fff;
+    width: 300px;
+    height: 50px;
+    border: none;
+    margin-top: 20px;
+    border-radius: 3.5px;
+    /*font*/
+    font-style: normal;
+    font-family: 'Jost', sans-serif;
+    font-weight: 400;
+    font-size: 110%;
+}
+
+button:active {
+    background-color: #D0BDF4;
+    color: #494D5F;
+}
+
+.status {
+    text-align: center;
+}
+
+.status label{
+    color: #EA5233;
+    font-weight:normal;
+    font-size: small;
+}

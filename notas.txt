@@ -1,0 +1,15 @@
+ /*const userData = clientRequire.body;
+    const user = userData.userValue;
+    const password = userData.passwordValue;
+    console.log(user);
+    console.log(password);
+
+    const userDB = undefined;
+    const passwordDB = undefined;*/
+
+    /*
+    const headerSection = document.getElementById("header");
+    
+    const header = document.createElement('img');
+    header.textContent = 'Contenido Dinámico';
+    headerSection.appendChild(header);*/

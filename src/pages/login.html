@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+                
+        <link rel="stylesheet" type="text/css" href="/src/pages/login.css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+        <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100;0,9..40,200;0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,100;1,9..40,200;1,9..40,300;1,9..40,400;1,9..40,500&amp;display=swap" rel="stylesheet">
+
+        <title>Login</title>
+    </head>
+    <body>
+        <div class="main-Container-Setting">
+            <form id="loginForm" class="form-Login-Setting">
+                <div class="logo-Form">
+                <img src="/public/resource/list.png" alt="list">
+                </div>
+                <div class="title-Form">Inicia Sesión</div>
+                <div>
+                <label for="txtUser">Usuario</label><br>
+                <input id="txtUser" name="User" required type="text"><br>
+                <label for="txtPassword">Contraseña</label><br>
+                <input id="txtPassword" name="Password" required type="password">
+                <div class="status">
+                    <label id="credentialsStatus"for="txtUser"></label>
+                </div>
+                <button type="submit">Iniciar Sesión</button><br>
+                </div>
+            </form>
+        <script src="/src/pages/login.js"></script>
+        </div>
+    </body>
+</html> 
